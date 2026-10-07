@@ -25,7 +25,9 @@ jobs:
 
       - name: Run Pytest Suite with Coverage
         env:
-          PYTHONPATH: apps/api
+          # `.` (repo root) is required for the top-level `evals` and `db` packages,
+          # `apps/api` for the `app` package. Mirrors PYTHONPATH=/app in infra/Dockerfile.api.
+          PYTHONPATH: .:apps/api
         run: |
           pytest apps/api/tests -v
 
