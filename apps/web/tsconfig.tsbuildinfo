@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/client.ts","./src/components/chat/chatview.tsx","./src/components/evals/evalsdashboard.tsx","./src/components/evidence/evidencedrawer.tsx","./src/components/layout/header.tsx","./src/components/metrics/metricsview.tsx","./src/components/trace/tracetimeline.tsx","./src/types/index.ts"],"version":"5.9.3"}

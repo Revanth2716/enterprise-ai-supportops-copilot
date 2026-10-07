@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ORD-1042-A",
+    "customer_id": "CUST-001",
+    "invoice_number": "INV-1042",
+    "amount": 149.00,
+    "currency": "USD",
+    "status": "duplicate_charge",
+    "line_items": [
+      {
+        "item_id": "SKU-PRO-SEAT",
+        "description": "Enterprise Support Seat (Monthly)",
+        "quantity": 1,
+        "unit_price": 149.00
+      }
+    ],
+    "transaction_reference": "TXN-88102-PRIMARY",
+    "billing_date": "2026-10-01T08:00:15Z",
+    "notes": "Initial recurring billing cycle attempt"
+  },
+  {
+    "id": "ORD-1042-B",
+    "customer_id": "CUST-001",
+    "invoice_number": "INV-1042",
+    "amount": 149.00,
+    "currency": "USD",
+    "status": "duplicate_charge",
+    "line_items": [
+      {
+        "item_id": "SKU-PRO-SEAT",
+        "description": "Enterprise Support Seat (Monthly)",
+        "quantity": 1,
+        "unit_price": 149.00
+      }
+    ],
+    "transaction_reference": "TXN-88103-RETRY",
+    "billing_date": "2026-10-01T08:01:42Z",
+    "notes": "Automated gateway retry triggered due to webhook timeout"
+  },
+  {
+    "id": "ORD-1020-0",
+    "customer_id": "CUST-001",
+    "invoice_number": "INV-1020",
+    "amount": 149.00,
+    "currency": "USD",
+    "status": "paid",
+    "line_items": [
+      {
+        "item_id": "SKU-PRO-SEAT",
+        "description": "Enterprise Support Seat (Monthly)",
+        "quantity": 1,
+        "unit_price": 149.00
+      }
+    ],
+    "transaction_reference": "TXN-77210-CLEARED",
+    "billing_date": "2026-09-01T08:00:00Z",
+    "notes": "Standard monthly subscription"
+  },
+  {
+    "id": "ORD-2001-A",
+    "customer_id": "CUST-002",
+    "invoice_number": "INV-2001",
+    "amount": 499.00,
+    "currency": "USD",
+    "status": "paid",
+    "line_items": [
+      {
+        "item_id": "SKU-ENT-PLATFORM",
+        "description": "Dedicated Cloud Cluster tier",
+        "quantity": 1,
+        "unit_price": 499.00
+      }
+    ],
+    "transaction_reference": "TXN-99120-OK",
+    "billing_date": "2026-10-02T11:20:00Z",
+    "notes": "Regular payment"
+  },
+  {
+    "id": "ORD-3005-A",
+    "customer_id": "CUST-003",
+    "invoice_number": "INV-3005",
+    "amount": 89.00,
+    "currency": "USD",
+    "status": "paid",
+    "line_items": [
+      {
+        "item_id": "SKU-MID-SEAT",
+        "description": "Mid-Market Base Seat",
+        "quantity": 1,
+        "unit_price": 89.00
+      }
+    ],
+    "transaction_reference": "TXN-55410-OK",
+    "billing_date": "2026-09-28T14:30:00Z",
+    "notes": "Paid on invoice"
+  }
+]

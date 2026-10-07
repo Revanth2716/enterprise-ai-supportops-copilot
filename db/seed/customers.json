@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CUST-001",
+    "account_number": "ACC-ACME-901",
+    "name": "ACME Corporation",
+    "tier": "Enterprise",
+    "status": "active",
+    "support_pin": "9812",
+    "primary_contact": "jane.doe@acme-corp.com"
+  },
+  {
+    "id": "CUST-002",
+    "account_number": "ACC-GLOB-412",
+    "name": "Globex International",
+    "tier": "Enterprise",
+    "status": "active",
+    "support_pin": "5421",
+    "primary_contact": "hank.scorpio@globex.com"
+  },
+  {
+    "id": "CUST-003",
+    "account_number": "ACC-INIT-773",
+    "name": "Initech Systems",
+    "tier": "Mid-Market",
+    "status": "active",
+    "support_pin": "3319",
+    "primary_contact": "peter.gibbons@initech.internal"
+  },
+  {
+    "id": "CUST-004",
+    "account_number": "ACC-UMBR-110",
+    "name": "Umbrella Health",
+    "tier": "Enterprise",
+    "status": "active",
+    "support_pin": "7720",
+    "primary_contact": "albert.w@umbrella.org"
+  }
+]
